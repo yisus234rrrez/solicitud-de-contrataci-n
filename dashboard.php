@@ -1,0 +1,118 @@
+<?php
+require_once 'php/Auth.php';
+Auth::requireLogin();
+?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Proyecto Premium</title>
+    <link href="css/output.css?v=<?php echo time(); ?>" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 min-h-screen text-gray-800">
+
+    <!-- NAVIGATION -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="img/logo.png" alt="Logo CECAR" class="h-10 w-auto">
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <a href="php/logout.php" class="text-sm font-medium text-red-600 hover:text-red-800 mr-4">Cerrar Sesión</a>
+                    <div
+                        class="flex items-center bg-brand-bg rounded-full px-3 py-1 border border-brand-soft italic font-medium text-brand-main">
+                        <?php echo $_SESSION['usuario']; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+        <!-- HEADER -->
+        <div class="mb-10">
+            <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">Panel de Control</h1>
+            <p class="mt-2 text-lg text-gray-500">Bienvenido de nuevo, <?php echo $_SESSION['usuario']; ?>. Gestiona tus procesos de forma rápida y eficiente.</p>
+        </div>
+
+        <!-- OPCIONES / GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- CARD 1 -->
+            <a href="solicitud.php"
+                class="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl hover:shadow-brand-soft hover:border-brand-light transition-all duration-300 transform hover:-translate-y-2">
+                <div
+                    class="w-14 h-14 bg-brand-soft text-brand-main rounded-2xl flex items-center justify-center mb-6 group-hover:bg-brand-main group-hover:text-white transition-colors duration-300 shadow-sm">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3">Crear Solicitud</h2>
+                <p class="text-gray-500 leading-relaxed font-light">Inicia un nuevo proceso de requerimiento de
+                    servicios de manera simplificada.</p>
+                <div class="mt-6 flex items-center text-brand-main font-semibold text-sm">
+                    Comenzar ahora
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
+
+            <!-- CARD 2 -->
+            <a href="solicitudes.php"
+                class="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl hover:shadow-blue-100 hover:border-blue-200 transition-all duration-300 transform hover:-translate-y-2">
+                <div
+                    class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300 shadow-sm">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3">Mis Solicitudes</h2>
+                <p class="text-gray-500 leading-relaxed font-light">Consulta el estado actual e historial de todos tus
+                    trámites pendientes y finalizados.</p>
+                <div class="mt-6 flex items-center text-blue-600 font-semibold text-sm">
+                    Ver historial
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
+
+            <!-- CARD 3 (Solo para Administrador) - (Filtro de acceso por rol) -->
+            <?php if ($_SESSION['usuario'] === 'Administrador'): ?>
+            <a href="revision.php"
+                class="group bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl hover:shadow-amber-100 hover:border-amber-200 transition-all duration-300 transform hover:-translate-y-2">
+                <div
+                    class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300 shadow-sm">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3">Panel Revisor</h2>
+                <p class="text-gray-500 leading-relaxed font-light">Accede a las solicitudes asignadas para revisión
+                    técnica, aprobación o rechazo.</p>
+                <div class="mt-6 flex items-center text-amber-600 font-semibold text-sm">
+                    Tareas pendientes
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
+            <?php endif; ?>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
