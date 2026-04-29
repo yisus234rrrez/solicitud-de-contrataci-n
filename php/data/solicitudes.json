@@ -1,0 +1,325 @@
+[
+    {
+        "nombre": "Larry Sanchez",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-02",
+        "tipo": "Contratación",
+        "justificacion": "Interesante",
+        "cargo": "Analista",
+        "archivo": "1775156206_¿Cómo se utiliza la función de «Reclamación de herencia» en Binance_ _ Binance Support.pdf",
+        "servicios_count": 1,
+        "id": "001",
+        "registro_at": "2026-04-02 20:56:46",
+        "estado": "aprobado",
+        "decision_at": "2026-04-04 20:26:33"
+    },
+    {
+        "nombre": "Juan Perez",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-02",
+        "tipo": "Mantenimiento",
+        "justificacion": "waos",
+        "cargo": "Analista",
+        "archivo": "1775168809_UNIDAD 1. CLASE 2. REGLA DE LA SUSTITUCIÓN.pdf",
+        "servicios_count": 1,
+        "id": "002",
+        "registro_at": "2026-04-03 00:26:49",
+        "estado": "aprobado",
+        "decision_at": "2026-04-04 20:26:34"
+    },
+    {
+        "nombre": "Jesus",
+        "dependencia": "Finansas",
+        "fecha": "2026-04-04",
+        "tipo": "Mantenimiento",
+        "justificacion": "faeffasdef",
+        "cargo": "analista",
+        "archivo": "1775316643_PROCEDIMIENTOS ALMACENADOS (2).pdf",
+        "servicios_count": 1,
+        "id": "003",
+        "registro_at": "2026-04-04 17:30:43",
+        "estado": "rechazado",
+        "decision_at": "2026-04-04 17:36:41"
+    },
+    {
+        "nombre": "dfd",
+        "dependencia": "fddfd",
+        "fecha": "2026-04-04",
+        "tipo": "Contratación",
+        "justificacion": "sffsd",
+        "cargo": "dffd",
+        "archivo": "1775327068_Proy-Curso-RedesI-2026A.pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "11",
+                "cantidad": "11",
+                "centro_costos": "ACTIVIDADES CULTURALES Y CIVICAS",
+                "cc_codigo": "74",
+                "rubro": "ACUEDUCTO Y ALCANTARILLADO",
+                "rubro_codigo": "513504",
+                "disponibilidad": "11",
+                "fondo": "11",
+                "funcion": "11",
+                "funcion_codigo": "11"
+            }
+        ],
+        "id": "004",
+        "registro_at": "2026-04-04 20:24:28",
+        "estado": "aprobado",
+        "decision_at": "2026-04-04 20:26:33"
+    },
+    {
+        "nombre": "Diomedes",
+        "dependencia": "Finansas",
+        "fecha": "2026-04-06",
+        "tipo": "Otros",
+        "justificacion": "Vallenato",
+        "cargo": "cantante",
+        "archivo": "1775534459_ESTADISTICA_DESCRIPTIVA_ING_SISTEMAS (2).pdf",
+        "servicios_count": 1,
+        "id": "005",
+        "registro_at": "2026-04-07 06:00:59",
+        "estado": "aprobado",
+        "decision_at": "2026-04-07 15:08:20",
+        "comentario_revision": "",
+        "historial": [
+            {
+                "estado": "aprobado",
+                "fecha": "2026-04-07 15:08:20",
+                "usuario": "Administrador",
+                "observacion": ""
+            }
+        ]
+    },
+    {
+        "nombre": "asdds",
+        "dependencia": "adsd",
+        "fecha": "2026-04-07",
+        "tipo": "Mantenimiento",
+        "justificacion": "1da",
+        "cargo": "sdd",
+        "archivo": "1775567327_ESTADISTICA_DESCRIPTIVA_ING_SISTEMAS (1).pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "11",
+                "cantidad": "1",
+                "centro_costos": "ACTIVIDADES CULTURALES Y CIVICAS",
+                "cc_codigo": "74",
+                "rubro": "ACTIVIDADES CULTURALES, DE BIENESTAR Y RECREACION",
+                "rubro_codigo": "519514",
+                "disponibilidad": "11",
+                "fondo": "11",
+                "funcion": "1",
+                "funcion_codigo": "1"
+            }
+        ],
+        "id": "006",
+        "registro_at": "2026-04-07 15:08:47",
+        "estado": "rechazado",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-07 15:08:47",
+                "usuario": "asdds",
+                "observacion": "Solicitud creada y enviada a revisión"
+            },
+            {
+                "estado": "rechazado",
+                "fecha": "2026-04-07 15:10:10",
+                "usuario": "Administrador",
+                "observacion": "no cumple con los requisitos minimos"
+            }
+        ],
+        "decision_at": "2026-04-07 15:10:10",
+        "comentario_revision": "no cumple con los requisitos minimos"
+    },
+    {
+        "nombre": "ad",
+        "dependencia": "dad",
+        "fecha": "2026-04-07",
+        "tipo": "Suministros",
+        "justificacion": "adadsds",
+        "cargo": "das",
+        "archivo": "1775568668_La eficiencia de los algoritmos.pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "qq",
+                "cantidad": "11",
+                "centro_costos": "ACTIVIDADES CULTURALES Y CIVICAS",
+                "cc_codigo": "74",
+                "rubro": "ACTIVIDADES CULTURALES, DE BIENESTAR Y RECREACION",
+                "rubro_codigo": "519514",
+                "disponibilidad": "11",
+                "fondo": "11",
+                "funcion": "1",
+                "funcion_codigo": "1"
+            }
+        ],
+        "id": "007",
+        "registro_at": "2026-04-07 15:31:08",
+        "estado": "revision",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-07 15:31:08",
+                "usuario": "ad",
+                "observacion": "Solicitud creada y enviada a revisión"
+            }
+        ]
+    },
+    {
+        "nombre": "larry",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-11",
+        "tipo": "Suministros",
+        "justificacion": "meoooow",
+        "cargo": "Analista",
+        "archivo": "1775610001_TUTELA SALUD DEL SENOR MANUEL.pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "12",
+                "cantidad": "12",
+                "centro_costos": "ACTIVIDADES DE FOMENTO A LA SALUD",
+                "cc_codigo": "366",
+                "rubro": "ACUEDUCTO Y ALCANTARILLADO",
+                "rubro_codigo": "513504",
+                "disponibilidad": "asd",
+                "fondo": "123",
+                "funcion": "asd",
+                "funcion_codigo": "12"
+            }
+        ],
+        "id": "008",
+        "registro_at": "2026-04-08 03:00:01",
+        "estado": "revision",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-08 03:00:01",
+                "usuario": "larry",
+                "observacion": "Solicitud creada y enviada a revisión"
+            }
+        ]
+    },
+    {
+        "nombre": "Larry Sanchez",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-11",
+        "tipo": "Mantenimiento",
+        "justificacion": "asdasd",
+        "cargo": "Analista",
+        "archivo": "1775612097_TUTELA SALUD DEL SENOR MANUEL.pdf",
+        "servicios_count": 2,
+        "servicios_list": [
+            {
+                "servicio": "aa",
+                "cantidad": "1",
+                "centro_costos": "ACTIVIDADES CULTURALES Y CIVICAS",
+                "cc_codigo": "74",
+                "rubro": "ACUEDUCTO Y ALCANTARILLADO",
+                "rubro_codigo": "513504",
+                "disponibilidad": "s",
+                "fondo": "s",
+                "funcion": "ss",
+                "funcion_codigo": "12"
+            },
+            {
+                "servicio": "aa",
+                "cantidad": "1",
+                "centro_costos": "ACTIVIDADES DE FOMENTO A LA SALUD",
+                "cc_codigo": "366",
+                "rubro": "ACUEDUCTO Y ALCANTARILLADO",
+                "rubro_codigo": "513504",
+                "disponibilidad": "s",
+                "fondo": "ss",
+                "funcion": "s",
+                "funcion_codigo": "sss"
+            }
+        ],
+        "id": "009",
+        "registro_at": "2026-04-08 03:34:57",
+        "estado": "revision",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-08 03:34:57",
+                "usuario": "Larry Sanchez",
+                "observacion": "Solicitud creada y enviada a revisión"
+            }
+        ]
+    },
+    {
+        "nombre": "Larry",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-03",
+        "tipo": "Contratación",
+        "justificacion": "waos",
+        "cargo": "Analistra",
+        "archivo": "1775615345_TUTELA SALUD DEL SENOR MANUEL..pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "12",
+                "cantidad": "12",
+                "centro_costos": "ACTIVIDADES CULTURALES Y CIVICAS",
+                "cc_codigo": "74",
+                "rubro": "ACTIVIDADES CULTURALES, DE BIENESTAR Y RECREACION",
+                "rubro_codigo": "519514",
+                "disponibilidad": "21",
+                "fondo": "12",
+                "funcion": "ACTIVIDADES DE BIENESTAR",
+                "funcion_codigo": "510"
+            }
+        ],
+        "id": "010",
+        "registro_at": "2026-04-08 04:29:05",
+        "estado": "revision",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-08 04:29:05",
+                "usuario": "Larry",
+                "observacion": "Solicitud creada y enviada a revisión"
+            }
+        ]
+    },
+    {
+        "nombre": "Larry Sanchez",
+        "dependencia": "Finanzas",
+        "fecha": "2026-04-07",
+        "tipo": "Mantenimiento",
+        "justificacion": "meow",
+        "cargo": "Analista",
+        "archivo": "1775615753_TUTELA SALUD DEL SENOR MANUEL.pdf",
+        "servicios_count": 1,
+        "servicios_list": [
+            {
+                "servicio": "1",
+                "cantidad": "12",
+                "centro_costos": "APOYO ADMINISTRATIVO",
+                "cc_codigo": "105",
+                "rubro": "PAPELERIA Y UTILES DE ESCRITORIO",
+                "rubro_codigo": "512001",
+                "disponibilidad": "100",
+                "fondo": "12",
+                "funcion": "HONORARIOS",
+                "funcion_codigo": "201"
+            }
+        ],
+        "id": "011",
+        "registro_at": "2026-04-08 04:35:53",
+        "estado": "revision",
+        "historial": [
+            {
+                "estado": "revision",
+                "fecha": "2026-04-08 04:35:53",
+                "usuario": "Larry Sanchez",
+                "observacion": "Solicitud creada y enviada a revisión"
+            }
+        ]
+    }
+]
